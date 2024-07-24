@@ -86,9 +86,3 @@ jobs:
           github_token: ${{ secrets.RELEASE_GITHUB_TOKEN }}
           prerelease: ${{ env.PRERELEASE == 'true' }}
           root_options: $DRY_RUN
-
-      - name: Publish to PyPI
-        if: ${{ !inputs.dry_run }}
-        uses: pypa/gh-action-pypi-publish@release/v1
-        with:
-          packages-dir: dist
