@@ -40,7 +40,7 @@ jobs:
       contents: write
       packages: read
     env:
-      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && (github.event.inputs.dry_run && '--noop' || '') || '' }}
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.dry_run == 'true' && '--noop' || '' }}
       PRERELEASE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.prerelease || 'true' }}
     steps:
       - uses: actions/checkout@v4
