@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## v0.2.1-beta.1 (2024-07-24)
+
+### Chore
+
+* chore: test stuff (#2) ([`cd1ffd9`](https://github.com/aorumbayev/algorand-python-testing/commit/cd1ffd9d8f612c842dd5e3f6801d42f74fedefcc))
+
+## v0.2.1 (2024-07-24)
+
+### Chore
+
+* chore: update cd.yaml ([`4e2246a`](https://github.com/aorumbayev/algorand-python-testing/commit/4e2246a2330f7d03ca4d12e3bc2096fc835f285f))
+
 ## v0.2.2-beta.2 (2024-07-24)
 
 ### Chore
@@ -9,6 +21,12 @@
 ### Feature
 
 * feat: test (#1) ([`2aa89e1`](https://github.com/aorumbayev/algorand-python-testing/commit/2aa89e173bc38c068f064552e05bdf3d29b59b58))
+
+### Unknown
+
+* 0.2.2-beta.2
+
+[skip ci] ([`934e6e7`](https://github.com/aorumbayev/algorand-python-testing/commit/934e6e773cededf76ebc198b5cf94eb08206b63a))
 
 ## v0.2.2-beta.1 (2024-07-24)
 
